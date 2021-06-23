@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="proj.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>GUESS THE BUTTON</h1>
+    <p>Choose one of three buttons and see if you are win!</p>
+
+    <div class="">
+      <div class="rounds">Round: 0</div>
+      <div class="score">Wins: 0</div>
+    </div>
+
+    <center>
+      <div class="buttons">
+        <button id ="1" onclick="check(this.id)"> Button1 </button>
+        <button id ="2" onclick="check(this.id)"> Button2 </button>
+        <button id ="3" onclick="check(this.id)"> Button3 </button>
+      </div>
+
+      <h3><p class ="status"></p><h3>
+    </center>
+
+    <script src="proj.js"></script>
+  </body>
+</html>
